@@ -1,3 +1,36 @@
 body{
-	background: dark;
+	font-family: roboto;
+}
+
+nav {
+	background: #021428;
+	width: 1920px;
+	height: 70px;
+
+}
+a {
+	color: white;
+	line-height: 4;
+	font-weight: bolder;
+	text-decoration: none;
+	margin-left: 20px;
+	top: -13px
+	left: 40px;
+}
+a:hover {
+	color: yellow;
+}
+a:active {
+	color: lime;
+}
+a.active{
+	color: lime;
+}
+img#logo{
+	margin-left: 402px;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+im#slideshow{
+	border-bottom: 10px;
 }
